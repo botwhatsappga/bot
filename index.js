@@ -1,7 +1,7 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 
 // On récupère juste ton numéro de téléphone dans les variables Render
-const PHONE_NUMBER = process.env.PHONE_NUMBER; 
+const PHONE_NUMBER = +24174569963; 
 
 if (!PHONE_NUMBER) {
     console.error("❌ ERREUR : La variable PHONE_NUMBER est manquante sur Render !");
